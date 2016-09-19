@@ -74,11 +74,9 @@ public class TestStreams extends TestCase {
         fillLists(persons1, persons2);
         Map map = Streams.of(persons1).transform(p ->
                 new OldPerson((Person) p)).toMap(OldPerson::getName, OldPerson::getPension);
-
-        persons2.forEach(person ->{
+        persons2.forEach(person -> {
             assertEquals(true, map.containsKey(person.getName()));
             assertEquals(OldPerson.getMinimumPension(), map.get(person.getName()));
         });
     }
-
 }
