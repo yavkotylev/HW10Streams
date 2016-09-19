@@ -35,14 +35,14 @@ public class Person {
         return age;
     }
 
-    public String getInformation(){
+    public String getInformation() {
         return "name = " + name + "  age = " + age;
     }
 
     @Override
     public boolean equals(Object obj) {
-        if (obj.getClass().equals(this.getClass())){
-            Person person = (Person)obj;
+        if (obj.getClass().equals(this.getClass())) {
+            Person person = (Person) obj;
             return (name.equals(person.getName()) && (age == person.getAge()));
         }
         return false;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b656eb-af67-4b2d-9b9e-d20d447759dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/streams/TestStreams.java" afterPath="$PROJECT_DIR$/src/test/java/streams/TestStreams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/streams/Person.java" afterPath="$PROJECT_DIR$/src/test/java/streams/Person.java" />
     </list>
     <ignored path="HW10Streams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,43 +44,27 @@
       <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/streams/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#556#557#0" expanded="false" />
-                <element signature="e#583#584#0" expanded="false" />
-                <element signature="e#610#611#0" expanded="false" />
-                <element signature="e#636#637#0" expanded="false" />
-                <element signature="e#673#674#0" expanded="false" />
-                <element signature="e#731#732#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OldPerson.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OldPerson.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/streams/OldPerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#564#565#0" expanded="false" />
-                <element signature="e#594#595#0" expanded="false" />
-                <element signature="e#621#622#0" expanded="false" />
-                <element signature="e#647#648#0" expanded="false" />
-                <element signature="e#678#679#0" expanded="false" />
-                <element signature="e#705#706#0" expanded="false" />
-                <element signature="e#750#751#0" expanded="false" />
-                <element signature="e#788#789#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStreams.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestStreams.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/streams/TestStreams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1200">
               <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,6 +124,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestStreams.java" />
         <option value="$PROJECT_DIR$/src/test/java/streams/TestStreams.java" />
+        <option value="$PROJECT_DIR$/src/test/java/streams/Person.java" />
       </list>
     </option>
   </component>
@@ -733,7 +718,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474280978142</updated>
-      <workItem from="1474280982873" duration="15365000" />
+      <workItem from="1474280982873" duration="15567000" />
     </task>
     <servers />
   </component>
@@ -770,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15365000" />
+    <option name="totallyTimeSpent" value="15567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -959,38 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/streams/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#556#557#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#610#611#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#673#674#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/streams/OldPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#564#565#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#788#789#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/streams/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1009,11 +962,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/streams/TestStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1200">
           <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/streams/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/streams/OldPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
